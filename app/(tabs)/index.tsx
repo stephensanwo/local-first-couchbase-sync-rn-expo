@@ -17,7 +17,7 @@ import {
 import {ThemedText} from '@/components/ThemedText';
 import {ThemedSearchBar} from "@/components/searchBar/ThemedSearchBar";
 import DatabaseContext from "@/providers/DatabaseContext";
-import {useNavigation} from "@react-navigation/native";
+import { useNavigation } from "expo-router";
 import {getLandmarkBySearchTerm} from "@/hooks/getLandmarks";
 import {ThemedView} from "@/components/ThemedView";
 import useNavigationBarTitleResetOption from "@/hooks/useNavigationBarTitleResetOption";

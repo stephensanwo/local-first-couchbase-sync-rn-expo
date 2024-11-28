@@ -16,7 +16,7 @@ import {ThemedView} from '@/components/ThemedView';
 import {startLogging} from '@/hooks/startLogging';
 import {getHotels, getHotelsBySearch} from '@/hooks/getHotels';
 import useNavigationBarTitleResetOption from "@/hooks/useNavigationBarTitleResetOption";
-import {useNavigation} from "@react-navigation/native";
+import { useNavigation } from "expo-router";
 import DatabaseContext from "@/providers/DatabaseContext";
 import {NoHotel} from "@/components/noHotel/NoHotel";
 import {ThemedSearchBar} from "@/components/searchBar/ThemedSearchBar";
